@@ -9,6 +9,6 @@ public class LoginController {
 
 	@RequestMapping(value="/",method=RequestMethod.GET)
 	public String test(){
-		return "hello world";
+		return "index";
 	}
 }
