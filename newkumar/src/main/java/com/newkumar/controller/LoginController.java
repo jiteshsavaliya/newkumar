@@ -11,4 +11,9 @@ public class LoginController {
 	public String test(){
 		return "index";
 	}
+	
+	@RequestMapping(value="/login",method=RequestMethod.POST)
+	public String login(){
+		return "index-boot";
+	}
 }

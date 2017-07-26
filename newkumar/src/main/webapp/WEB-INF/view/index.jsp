@@ -1,7 +1,11 @@
 <html>
 <head>
 <body>
-<h1>new kumar jitesh</h1>
+<form method="post" action="/newkumar/login">
+<input id="username" placeholder="User Name"/><br>
+<input id="password" type="password" placeholder="Password"/><br>
+<input type="submit" value="Login"/>
+</form>
 </body>
 </head>
 </html>
